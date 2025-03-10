@@ -4,7 +4,7 @@ require 'pry'
 
 key = OpenSSL::PKey::RSA.new(1024)
 
-bucket = 'encrypt-client-fun-ab-634232'
+bucket = 'encrypt-client-fun-fd'
 object_key = 'hello.txt'
 # encryption client
 s3 = Aws::S3::EncryptionV2::Client.new(
