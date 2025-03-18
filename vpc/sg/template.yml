@@ -6,13 +6,13 @@ Parameters:
     Default: t2.micro
   VpcId:
     Type: String
-    Default: vpc-0e42de8384640b727
+    Default: vpc-0b79d96c93aaa9678 # add vpc-id
   ImageId:
     Type: String
-    Default: ami-003c24b59bb839e19
+    Default: ami-04b4f1a9cf54c11d0 #create ec2 instance and add ami id
   SubnetId:
     Type: String
-    Default: subnet-04860c6667f12b9ce
+    Default: subnet-0644c7dc7ece6b321 #add subnet-id
 Resources:
   SSMRole:
     Type: AWS::IAM::Role
