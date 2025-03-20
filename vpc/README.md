@@ -71,3 +71,104 @@ was develop to provide a solution for eventual exhaustion of all IPV4 addresses.
 IPv4 only vpcs can be migrateed to operate in dual stack mode (ipv4 and ipv6)
 
 ![image](https://github.com/user-attachments/assets/81ce897e-f7c9-40d6-a0b0-8df57d65bb12)
+
+### AWS Direct connect
+is the aws solutions to establish a dedicated network connection from on-premises locations to AWS
+
+![image](https://github.com/user-attachments/assets/0f516b26-1b67-4da1-8314-85e22e5c7248)
+
+A- Connection requirements:
+![image](https://github.com/user-attachments/assets/38d2bbf3-5e45-4f30-ac85-4c94efd4e8fa)
+
+B- Direction connect supports:
+
+![image](https://github.com/user-attachments/assets/f99dbe4e-5f08-4730-a9a3-29bc6c42d83f)
+
+C - There are three factor to pricing:
+
+![image](https://github.com/user-attachments/assets/340c25a3-8478-4f29-9915-c355d1f40ac2)
+
+### VPC endpoints 
+Allow me to privately connect my vpc to others AWS and others services
+
+![image](https://github.com/user-attachments/assets/689a3f2b-bbbe-439e-bbc8-357a5df18eec)
+
+### Introduction to Private link
+Is a broader service that allows me to securely connect my vpc to:
+
+![image](https://github.com/user-attachments/assets/d2b30933-076b-4bf4-99ee-81682bb381ed)
+
+### Interface Endpoint
+Are Elastic Network interface (ENI) with a private IP address.
+
+![image](https://github.com/user-attachments/assets/562fd255-62d5-4d36-9162-b05b2755afde)
+
+### Gateway Load Balancer Endpoints
+Allows me to distribute traffic to a fleet of network virtual appliances.
+
+![image](https://github.com/user-attachments/assets/7e07da7b-fce7-4c86-b068-e6b430905d40)
+
+### VPC Gatway Endpoints
+provide reliable connectivity to Amazon s3 and dynamoDB without requiring an internet gateway or a NAT device for my VPC
+
+![image](https://github.com/user-attachments/assets/8df83939-2eef-4092-9a45-6a2a9af8fb0e)
+
+### VPC Endpoints Comparison
+I am making a comparison of vpc endpoints to solidify my understanding.
+
+![image](https://github.com/user-attachments/assets/b00333f2-7808-4b7b-9109-1f353935e14f)
+
+### VPC Flow Logs
+Allow me to capture IP traffic information through my VPC.
+
+![image](https://github.com/user-attachments/assets/1973569c-a9c3-4a33-9be1-a3438673666d)
+
+to make it more digest, here is a simple version
+
+![image](https://github.com/user-attachments/assets/60751c65-ad50-496c-8c4d-7956f3b3d66e)
+
+### AWS Virtual Private Network
+Aws vpn lets me establish a secure and private tunnel form my network or device to the aws global network
+
+![image](https://github.com/user-attachments/assets/2e169509-eb0d-4c61-bb83-ba84df613a54)
+
+### AWS Site-to-Site VPN
+Allow me to connect my vpc to my on-premise network.
+
+![image](https://github.com/user-attachments/assets/f9052261-27cc-437c-b40a-8810c82f8134)
+
+Features:
+
+![image](https://github.com/user-attachments/assets/86697435-2cf9-404a-ab34-fe872662a246)
+
+### Virtual Private Gateway (VGW)
+
+![image](https://github.com/user-attachments/assets/537c19e6-0211-4500-8ed5-90c882a92923)
+
+### Customer Gatway (CGW)
+is a resource that i create in AWS that represents the customer gateway device in my on-premises network.
+
+![image](https://github.com/user-attachments/assets/a8cd5965-86be-4522-9014-198332cee69f)
+
+Diagram:
+
+![image](https://github.com/user-attachments/assets/90798468-72cc-4a6e-a985-a1b3487b0506)
+
+Aws provide sample configuration files for various customer gateway devices:
+
+![image](https://github.com/user-attachments/assets/6bad85f8-9a54-4022-a257-8fb959dffff7)
+
+### Transit Gatway (TGW)
+Is a transit hub that i can use to interconnect my vpc and my on-premises networks
+
+![image](https://github.com/user-attachments/assets/02a028cb-c4f4-4072-b249-503edbb92090)
+
+### AWS Client VPN
+is a fully manage client-based VPN service that enables me to securely access AWS resources and resources in my on-premises network.
+
+![image](https://github.com/user-attachments/assets/e7afd5ec-b150-4397-bb36-5b91481d5cdc)
+
+### Network Address Translation (NAT)
+Is modifying my network address information in the ip header of packet while they are in transit accross a traffic-routing device.
+
+![image](https://github.com/user-attachments/assets/5e5f08c9-c7d3-4e51-a1e3-c7f26f88f4a9)
