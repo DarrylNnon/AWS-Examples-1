@@ -172,3 +172,73 @@ is a fully manage client-based VPN service that enables me to securely access AW
 Is modifying my network address information in the ip header of packet while they are in transit accross a traffic-routing device.
 
 ![image](https://github.com/user-attachments/assets/5e5f08c9-c7d3-4e51-a1e3-c7f26f88f4a9)
+
+### NAT Gateway
+Is a fully fully managed NAT service to allow instances in your private subnet to establish outbound connections.
+
+![image](https://github.com/user-attachments/assets/2ea5dfdf-fd08-48a6-b31d-018f3de8f7c5)
+
+### DNS64 and  NAT64
+A NAT gateway supports network address translation from IPV6 to IPv4, popularly know as NAT64
+
+![image](https://github.com/user-attachments/assets/75b88351-0a43-43a2-aac5-3f7fb4b10f85)
+
+### NAT instances
+Is an AWS managed IAM to launch a NAT into an individual EC2 instance.
+NAT instances required the customer to handle scaling
+
+![image](https://github.com/user-attachments/assets/1f288b05-d4f4-4aaf-9327-b511d307e6a3)
+
+### Bastion / Jumpbox
+Jumpbox are security hardened virtual machines that provide secure access to private subnets.
+
+![image](https://github.com/user-attachments/assets/a533e316-3162-474b-a9ca-3e2f34f1e0b1)
+
+### VPC Lattecie
+is a fully managed application networking service that i use to connect, secure, and monitor the services for my application
+
+![image](https://github.com/user-attachments/assets/c43e4d44-cf8a-404a-8791-aab000b8179c)
+
+![image](https://github.com/user-attachments/assets/94ab8758-4356-4937-9456-7850984596ac)
+
+### Transit Gateway
+
+![image](https://github.com/user-attachments/assets/3216b533-bfaf-42f5-86e5-3d22131db530)
+
+### Traffic Mirroring
+sends a copy network traffic from source ENI to target ENI, or UDP-enabled NLB or GWLB
+
+![image](https://github.com/user-attachments/assets/f054e52e-f57d-4744-b833-ac32d0f9808c)
+
+### Route 53 Resolver DNS Firewall
+Is a DNS firewall that protect against DNS exfiltration of my data.
+
+![image](https://github.com/user-attachments/assets/57faab4f-4751-42e8-a2c8-0d159cb3279a)
+
+### AWS Network Firewall
+is stateful, managed, network firewall and IDS/IPS for VPCs
+
+![image](https://github.com/user-attachments/assets/78296cb6-9e7e-4404-9c02-f72193da7631)
+
+### VPC peering
+It allows me to connect one vpc with another over a direct network route using a private IP addresses.
+
+![image](https://github.com/user-attachments/assets/2cd1e6b7-888c-4157-a078-536085c1cfee)
+
+![image](https://github.com/user-attachments/assets/0764af6f-d23b-4bd4-a377-17449f3b30d2)
+
+### Referencing SG in Peering VPC
+
+![image](https://github.com/user-attachments/assets/9df1f58c-e9b9-4252-8a47-86f0ffd8b479)
+
+### Network Address Usage
+is a metric applied to  resources in my virtual network to help me plan for and monitor the sie of my vpc
+
+![image](https://github.com/user-attachments/assets/b272831d-184e-423e-9666-af12914d8a81)
+
+![image](https://github.com/user-attachments/assets/624e2f43-bc6e-4553-bed6-676305e361c9)
+
+### Identity Access Management (IAM)
+manages access of AWS users and resources.
+
+![image](https://github.com/user-attachments/assets/c8d13d53-e489-40cb-a3ba-1f4a0dca2100)
