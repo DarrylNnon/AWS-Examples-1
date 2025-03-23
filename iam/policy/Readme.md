@@ -23,8 +23,8 @@ aws iam create-policy \
 
 ```sh
 aws iam attach-user-policy \
---policy-arn arn:aws:iam::982383527471:policy/my-fun-policy  \
---user-name aws-examples
+--policy-arn arn:aws:iam::061039771161:policy/my-fun-policy  \
+--user-name Francklin
 ```
 
 # Anatomy of an IAM policy
