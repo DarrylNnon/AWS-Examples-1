@@ -19,7 +19,7 @@ cat <<EOF > /var/www/html/index.html
     <title>Welcome to My Website</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <h1>Hello, Francklin!</h1>
     <p>This is a custom HTML page served from my Apache server on EC2.</p>
 </body>
 </html>
